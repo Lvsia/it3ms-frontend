@@ -1,0 +1,50 @@
+body {
+    font-family: 'Prompt', sans-serif !important;
+}
+
+.nav-item a {
+    font-size: 19px;
+    margin-left: 1em;
+    color: whitesmoke;
+    font-weight: 700;
+}
+
+header h3 {
+    font-family: 'Architects Daughter', cursive;
+    color: whitesmoke;
+    margin-left: 0.5em;
+    margin-top: auto;
+}
+
+header .buttons-group #btn-1 {
+    background-color: rgb(85, 81, 81);
+    font-weight: 700;
+    color: rgb(255, 193, 7);
+}
+
+header .buttons-group #btn-2 {
+    background-color: rgb(255, 193, 7);
+    font-weight: 700;
+    color: rgb(85, 81, 81);
+}
+
+nav .nav {
+    border-top: 1px solid rgb(98, 98, 100);
+    padding-bottom: 0.5em;
+}
+
+nav .nav .nav-item .active {
+    color: rgb(255, 193, 7);
+    border-bottom: 2px solid rgb(255, 193, 7);  
+}
+
+nav .nav .nav-item .nav-link:hover {
+    color: rgb(255, 193, 7);
+}
+
+.nav-item .dropdown-menu a {
+    font-size: 17px;
+    margin-left: 0;
+    color: black;
+    font-weight: 400;
+}
