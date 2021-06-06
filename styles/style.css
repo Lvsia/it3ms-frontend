@@ -1,5 +1,6 @@
 body {
     font-family: 'Prompt', sans-serif !important;
+    background-color: #1a1a1a !important;
 }
 
 .nav-item a {
@@ -42,9 +43,31 @@ nav .nav .nav-item .nav-link:hover {
     color: rgb(255, 193, 7);
 }
 
-.nav-item .dropdown-menu a {
-    font-size: 17px;
-    margin-left: 0;
-    color: black;
-    font-weight: 400;
+.carouselItemsy .carousel-item h1, h3 {
+    font-weight: 700;
+    text-shadow: 3px 2px 2px black;
+}
+
+.content .newly-added h2 {
+    color: rgb(255, 193, 7);
+    font-weight: 500;
+    margin-top: 1.5em;
+    margin-left: 2em;
+}
+
+.content .newly-added .d-flex img {
+    height: 285px;
+    width: auto;
+    margin-left: 2em;
+}
+
+.content .newly-added .d-flex h4, h5 {
+    color: whitesmoke;
+    text-shadow: 1px 2px 2px black;
+}
+
+.content .newly-added .d-flex .btn {
+    background-color: rgb(255, 193, 7);
+    font-weight: 700;
+    margin-top: 1.4em;
 }

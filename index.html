@@ -4,7 +4,7 @@
     <title>it3ms.it</title>
     <link rel="icon" href="./img/icon2.png">
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./styles/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=PT+Sans&display=swap" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap" rel="stylesheet">
@@ -15,7 +15,7 @@
 
   <header class="py-2 bg-dark border-0">
     <div class="container d-flex flex-wrap justify-content-between">
-      <a href="/" class="d-flex align-items-center mb-md-0 me-md-auto text-dark text-decoration-none">
+      <a href="#" class="d-flex align-items-center mb-md-0 me-md-auto text-dark text-decoration-none">
         <img src="./img/icon2.png" width="50" alt="logo" style="margin-left: 1em;">
         <h3>it3ms.it</h3>
       </a>
@@ -26,8 +26,8 @@
         </div>
       </form>
       <div class="buttons-group" style="margin-left: 21%;">
-        <a class="btn" id="btn-1" href="#" role="button">LOG IN</a>
-        <a class="btn" id="btn-2" href="#" role="button">SIGN UP</a>
+        <a class="btn" id="btn-1" href="./login.html" role="button">LOG IN</a>
+        <a class="btn" id="btn-2" href="./register.html" role="button">SIGN UP</a>
       </div>
     </div>
   </header>
@@ -36,24 +36,118 @@
     <div class="d-flex flex-wrap justify-content-center">
       <ul class="nav">
         <li class="nav-item"><a href="#" class="nav-link px-3 active">Home</a></li>
-        <li class="nav-item"><a href="#" class="nav-link px-3">Shop</a></li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Browse Games
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="#">Currency</a>
-            <a class="dropdown-item" href="#">Items/Skins</a>
-            <a class="dropdown-item" href="#">View all games</a>
-          </div>
-        </li>
-        <li class="nav-item"><a href="#" class="nav-link px-3">About</a></li>
+        <li class="nav-item"><a href="shop.html" class="nav-link px-3">Shop</a></li>
+        <li class="nav-item"><a href="about.html" class="nav-link px-3">About</a></li>
       </ul>
     </div>
   </nav>
-  
 <!-- navbar ends here -->
-  <img src="./img/horrible_situation.jpg" alt="Bubbles">
+  <div class="content">
+    <div id="carouselItemsy" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselItemsy" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselItemsy" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselItemsy" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./img/carousel/bdo.jpg" class="d-block w-100" alt="Black Desert Online">
+          <div class="carousel-caption d-none d-md-block">
+            <h1 style="text-shadow: 3px 3px 2px black;">Huge game database.</h1>
+            <h3>Explore items from various games, here you can find items for all the most popular games.</h3>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./img/carousel/fortnite.jpg" class="d-block w-100" alt="Fortnite">
+          <div class="carousel-caption d-none d-md-block">
+            <h1 style="text-shadow: 3px 3px 2px black;">New items everyday!</h1>
+            <h3>Our users posts new items for auctions everyday, so be prepared to see new content everyday.</h3>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./img/carousel/cs.jpg" class="d-block w-100" alt="Counter Strike">
+          <div class="carousel-caption d-none d-md-block">
+            <h1 style="text-shadow: 3px 3px 2px black;">We care about your security.</h1>
+            <h3>You can feel safely when performing transactions on our site.</h3>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselItemsy" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselItemsy" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div class="newly-added">
+      <h2>Newly added</h2>
+      <hr style="margin: 0 1em 1em 1em; color: #626264; height: 0.1em;">
+        <div class="row" style="margin-top: 2em; max-width: 1850px;">
+          <div class="col-6">
+            <div class="d-flex flex-row mb-3" style="margin-left: 6em;">
+              <img src="./img/newly/armor-onyx.PNG" alt="Inscribed Armor of the Onyx Lotus">
+              <div class="p-3 bd-highlight" style="border: solid #464362 1px; background-color: #464362; width: 440px;">
+                <h4>Inscribed Armor of the Onyx Lotus</h4>
+                <hr>
+                <h5>Game: Dota 2</h5>
+                <h5>Quality: Inscribed</h5>
+                <h5>Rarity: Uncommon</h5>
+                <h5>Price: $0.75</h5>
+                <a href="#" class="btn">Shop this item</a> 
+              </div>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="d-flex flex-row mb-3">
+              <img src="./img/newly/manifold-paradox.PNG" alt="Manifold Paradox">
+              <div class="p-3 bd-highlight" style="border: solid #464362 1px; background-color: #464362; width: 440px;">
+                <h4>Manifold Paradox</h4>
+                <hr>
+                <h5>Game: Dota 2</h5>
+                <h5>Quality: Standard</h5>
+                <h5>Rarity: Arcana</h5>
+                <h5>Price: $32.23</h5>
+                <a href="#" class="btn">Shop this item</a> 
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row" style="margin-top: 1em; margin-bottom: 2em; max-width: 1850px;">
+          <div class="col-6">
+            <div class="d-flex flex-row mb-3" style="margin-left: 6em;">
+              <img src="./img/newly/knife.PNG" alt="Gut Knife | Blue Steel">
+              <div class="p-3 bd-highlight" style="border: solid #464362 1px; background-color: #464362; width: 440px;">
+                <h4>Gut Knife | Blue Steel</h4>
+                <hr>
+                <h5>Game: Counter-strike: Global Offensive</h5>
+                <h5>Quality: Covert</h5>
+                <h5>Rarity: Rare</h5>
+                <h5>Price: $99.90</h5>
+                <a href="#" class="btn">Shop this item</a> 
+              </div>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="d-flex flex-row mb-3">
+              <img src="./img/newly/gloves.PNG" alt="Driver Gloves | Convoy">
+              <div class="p-3 bd-highlight" style="border: solid #464362 1px; background-color: #464362; width: 440px;">
+                <h4>Driver Gloves | Convoy</h4>
+                <hr>
+                <h5>Game: Counter-strike: Global Offensive</h5>
+                <h5>Quality: Extraordinary</h5>
+                <h5>Rarity: Uncommon</h5>
+                <h5>Price: $116.29</h5>
+                <a href="#" class="btn">Shop this item</a> 
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    <hr style="margin: 0 1em 1em 1em; color: #626264; height: 1px;">
+    <h1 style="text-align: center; color: whitesmoke; font-weight: 500; margin-top: 2em; text-shadow: 3px 2px 2px black;">There is much more to see!</h1>
+  </div>
 
 
     <footer id=footer class="bg-dark text-center text-lg-start">
@@ -63,6 +157,6 @@
     </footer>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 </body>
 </html> 

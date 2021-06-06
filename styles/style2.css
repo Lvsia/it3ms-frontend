@@ -1,0 +1,19 @@
+.dark-custom-bg{
+	background-color: #1a1a1a;
+	color: whitesmoke;
+}
+.lighter-dark-custom-bg{
+	background-color: #2b2b2b;
+	color: whitesmoke;
+}
+a.yellow{
+	color: #f1c50e;
+}
+a.yellow:hover{
+	color: #ba980b
+}
+.yellow-btn{
+	background-color: rgb(255, 193, 7);
+    font-weight: 700;
+    color: rgb(85, 81, 81);
+}
